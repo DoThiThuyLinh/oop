@@ -20,9 +20,21 @@ namespace HW2
             this.salary = salary;
         }
 
-        public string Name { get { return name; } set { name = value; } }
-        public string Address { get { return address; } set { address = value; } }
-        public double Salary { get { return salary; } set { salary = value; } }
+        public string Name 
+        { 
+            get { return name; } 
+            set { name = value; } 
+        }
+        public string Address 
+        { 
+            get { return address; } 
+            set { address = value; } 
+        }
+        public double Salary 
+        { 
+            get { return salary; } 
+            set { salary = value; } 
+        }
 
         // Phương thức nhập thông tin người
         public static Person Nhap(string name, string address, string sSalary)
